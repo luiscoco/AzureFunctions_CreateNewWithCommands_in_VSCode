@@ -62,6 +62,14 @@ We set the new Azure Function name:
 
 ![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/2cf70d7d-e909-42f4-8ced-5d42191f52cf)
 
+We also can set in the commands: the Azure **FunctionName**, the template, the **authorization level**, and the **runtime**.
+
+````bash
+func init YourFunctionProjectName --dotnet
+cd YourFunctionProjectName
+func new --name MyNewFunction --template "HTTP trigger" --authlevel "anonymous" --runtime dotnet-isolated
+```
+
 ## 4. Azure Function C# source code.
 
 ```csharp
