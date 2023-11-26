@@ -64,7 +64,7 @@ We set the new Azure Function name:
 
 We also can set in the commands: the Azure **FunctionName**, the template, the **authorization level**, and the **runtime**.
 
-````bash
+```bash
 func init YourFunctionProjectName --dotnet
 cd YourFunctionProjectName
 func new --name MyNewFunction --template "HTTP trigger" --authlevel "anonymous" --runtime dotnet-isolated
