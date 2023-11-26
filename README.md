@@ -1,4 +1,6 @@
-# AzureFunctions: How to create a new Azure Function only with commands (https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference?tabs=v2)
+# AzureFunctions: How to create a new Azure Function only with commands 
+
+(https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference?tabs=v2)
 
 Creating an Azure Function in C# with Visual Studio Code involves a few steps.
 
@@ -51,6 +53,8 @@ You can use the **--target-framework** option to target a specific supported ver
 See: https://dotnet.microsoft.com/es-es/platform/support/policy/dotnet-core#lifecycle
 
 For more information, see the **func init** reference:
+
+https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference?tabs=v2#func-init
 
 Navigate to the Project Directory:
 
