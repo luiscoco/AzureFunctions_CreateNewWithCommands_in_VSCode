@@ -154,10 +154,21 @@ The set the input data requested for creating the new Azure Function:
 
 ![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/2637a558-8168-41b6-b5f0-68bdd121b241)
 
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/f2129045-46e7-47d5-90ad-83951d2f70b0)
 
+Then press the button "Review + create"
 
-![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/01c2ccdd-eb78-4829-ae07-e4999cc27dd6)
+Then press the button "Create"
 
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/3a9ce4d9-8f2a-41b9-93f7-cfb40e2ca6a1)
+
+Now the new Azure Function deployment is in progress
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/00295205-8762-48e8-ac32-a72e9aa532a7)
+
+When the deployment is finished you can navigate to the new resource, press the "Go to resource" button:
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/22215f7b-73df-4307-9fa3-d105328b5080)
 
 If you want to deploy your function to Azure, you can run the following command:
 
