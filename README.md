@@ -8,11 +8,11 @@ Here's a step-by-step guide:
 
 ## 1. Install Prerequisites:
 
-Install .NET SDK (if not already installed).
+Install .NET SDK (if not already installed): https://dotnet.microsoft.com/es-es/download/dotnet/8.0
 
-Install Azure Functions Core Tools.
+Install Azure Functions Core Tools: https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
 
-Install Azure Functions Extension for VSCode:
+Install Azure Functions Extension for VSCode.
 
 ## 2. Open Visual Studio Code and install extension.
 
