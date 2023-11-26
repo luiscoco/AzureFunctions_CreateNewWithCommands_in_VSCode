@@ -1,22 +1,24 @@
 # AzureFunctions: How to create a new Azure Function only with commands 
 
-(https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference?tabs=v2)
-
 Creating an Azure Function in C# with Visual Studio Code involves a few steps.
 
-Make sure you have the necessary tools installed, such as the Azure Functions Core Tools and the Azure Functions extension for Visual Studio Code.
+Make sure you have the necessary tools installed, such as the **Azure Functions Core Tools** and the **Azure Functions extension** for Visual Studio Code.
 
 Here's a step-by-step guide:
 
 ## 1. Install Prerequisites:
 
-Install .NET SDK (if not already installed): https://dotnet.microsoft.com/es-es/download/dotnet/8.0
+### 1.1. Install .NET SDK (if not already installed): https://dotnet.microsoft.com/es-es/download/dotnet/8.0
 
-Install Azure Functions Core Tools: https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
+### 1.2. Install Azure Functions Core Tools: https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
 
 ![image](https://github.com/luiscoco/AzureFunctions_CreateWithCommands/assets/32194879/17058b9f-f138-480f-8e41-7bebe6de9012)
 
-Install Azure Functions Extension for VSCode.
+IMPORTANT NOTE: these are the **Azure Functions Core Tools reference**: 
+
+https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference?tabs=v2
+
+### 1.3. Install Azure Functions Extension for VSCode.
 
 ## 2. Open Visual Studio Code and install extension.
 
