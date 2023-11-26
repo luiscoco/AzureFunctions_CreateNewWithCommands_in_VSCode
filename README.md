@@ -170,14 +170,11 @@ When the deployment is finished you can navigate to the new resource, press the 
 
 ![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/22215f7b-73df-4307-9fa3-d105328b5080)
 
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/d0d64a8c-6f4c-4808-a1df-5ebf7f3c18c3)
+
 If you want to deploy your function to Azure, you can run the following command:
 
 ```bash
-func azure functionapp publish YourAzureFunctionAppName
+func azure functionapp publish MyFirstAzureFunctionFromCommandPrompt
 ```
 
-Replace YourAzureFunctionAppName with the desired name for your Azure Function App.
-
-That's it! You've created a C# Azure Function using Visual Studio Code and the Azure Functions Core Tools. 
-
-Feel free to explore more templates and configurations based on your specific requirements.
