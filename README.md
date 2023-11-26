@@ -178,3 +178,43 @@ If you want to deploy your function to Azure, you can run the following command:
 func azure functionapp publish MyFirstAzureFunctionFromCommandPrompt
 ```
 
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/a0a60af2-aad5-43b0-b185-fbdc123975a0)
+
+This error is telling you that there is a mismatch between the **FUNCTIONS_WORKER_RUNTIME** setting in your Azure Function App and your local project. 
+
+In Azure, the app is set to use **dotnetIsolated**, while your local project is set to **dotnet**.
+
+To resolve this, you have a couple of options:
+
+### Update Local Project to Use dotnetIsolated:
+
+Open your YourFunctionProjectName.csproj file.
+
+Change the <TargetFramework> element to **net6.0-isolated** (or the version you are using).
+
+Save the file.
+
+Example:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-isolated</TargetFramework>
+  </PropertyGroup>
+
+</Project>
+```
+
+### Pass --force to Update Azure App:
+
+Run the following command, passing the **--force** option:
+
+```bash
+func azure functionapp publish MyFirstAzureFunctionFromCommandPrompt --force
+```
+
+This will update your Azure Function App to use dotnet as the FUNCTIONS_WORKER_RUNTIME.
+
+Choose the option that best fits your requirements. If you're using the isolated process model locally (net6.0-isolated), it's a good idea to update your Azure Function App to match.
