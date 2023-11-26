@@ -223,3 +223,18 @@ If you're using the isolated process model locally (net6.0-isolated), it's a goo
 
 ![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/428fb818-2a00-470d-8f8f-cdf1a844a20a)
 
+After the deployment go to Azure portal and navigate to the new Azure Function
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/400b1a99-5c4f-4072-b300-4ae903a2b85d)
+
+Now we press in the "**Get Function Url**" option
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/31da0a7b-45dd-4823-92e7-21c958216862)
+
+Then we copy and paste the Azure Function Url in the internet web browser:
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/a02fef16-1772-4991-91f8-b6818d2fdb30)
+
+We check the output
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/edcf5354-4a61-4ca1-ad9e-6a38d52dcd1e)
