@@ -32,9 +32,25 @@ Run the following command to create a new Azure Functions project:
 func init YourFunctionProjectName --dotnet
 ```
 
+This command creates a project that runs on the current Long-Term Support (LTS) version of .NET Core.
+
+For other .NET version, create an app that runs in an isolated worker process from the Functions host.
+
 Replace YourFunctionProjectName with the desired name for your project.
 
 ![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/8cb470a0-a54f-4003-8d48-e2a5b105bf50)
+
+Another option is to use the **dotnet-isolated** flag:
+
+```
+func init MyProjFolder --worker-runtime dotnet-isolated 
+```
+
+By default this command creates a project that runs in-process with the Functions host on the current Long-Term Support (LTS) version of .NET Core.
+
+You can use the **--target-framework** option to target a specific supported version of .NET, including .NET Framework.
+
+For more information, see the func init reference.
 
 Navigate to the Project Directory:
 
