@@ -1,4 +1,4 @@
-# AzureFunctions: How to create a new Azure Function with Commands in VSCode
+# AzureFunctions: How to create a new Azure Function with only with Commands
 
 Creating an Azure Function in C# with Visual Studio Code involves a few steps.
 
