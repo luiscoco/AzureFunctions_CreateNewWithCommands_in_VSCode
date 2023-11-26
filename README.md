@@ -217,4 +217,9 @@ func azure functionapp publish MyFirstAzureFunctionFromCommandPrompt --force
 
 This will update your Azure Function App to use dotnet as the FUNCTIONS_WORKER_RUNTIME.
 
-Choose the option that best fits your requirements. If you're using the isolated process model locally (net6.0-isolated), it's a good idea to update your Azure Function App to match.
+Choose the option that best fits your requirements. 
+
+If you're using the isolated process model locally (net6.0-isolated), it's a good idea to update your Azure Function App to match.
+
+![image](https://github.com/luiscoco/AzureFunctions_CreateNewWithCommands_in_VSCode/assets/32194879/428fb818-2a00-470d-8f8f-cdf1a844a20a)
+
