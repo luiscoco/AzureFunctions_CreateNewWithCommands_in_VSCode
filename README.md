@@ -12,6 +12,8 @@ Install .NET SDK (if not already installed): https://dotnet.microsoft.com/es-es/
 
 Install Azure Functions Core Tools: https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
 
+![image](https://github.com/luiscoco/AzureFunctions_CreateWithCommands/assets/32194879/17058b9f-f138-480f-8e41-7bebe6de9012)
+
 Install Azure Functions Extension for VSCode.
 
 ## 2. Open Visual Studio Code and install extension.
